@@ -1,0 +1,323 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    line-height: 1.6;
+  }
+  
+ 
+  #container2 li {
+    font-family: 'Bai Jamjuree';
+    font-weight: bold;
+  }
+
+
+  #container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 60px;
+    border-bottom: 1px solid #ffffff;
+    background-color: #1e1e1e;
+  }
+  
+  #container2 {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+  
+  .naveg {
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+  
+  .naveg:hover {
+    color: #00c6ff;
+  }
+  
+
+  #My_ana {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    padding: 120px 20px;
+    text-align: center;
+    gap: 20px;
+    height: 600px;
+    position: relative;
+  }
+  
+  #My_ana h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Bai Jamjuree';
+  }
+  
+  #My_ana p {
+    max-width: 700px;
+    color: #aaa;
+    font-family: 'Bai Jamjuree';
+  }
+  
+  #logo_fundo {
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    bottom: 100px;
+  }
+
+  #box {
+    background-color: #22313f;
+    border-radius: 16px;
+    padding: 50px 30px;
+    margin: 0 auto 80px;
+    
+    text-align: center;
+    max-width: 90vw;
+  }
+  
+  #box h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #fff;
+    font-family: 'Bai Jamjuree';
+  }
+  
+  #box p {
+    max-width: 700px;
+    margin: 20px auto 20px;
+    color: #ccc;
+    font-size: 0.95rem;
+    font-family: 'Plus Jakarta Sans';
+    
+  }
+
+  #box h3{
+    font-family: 'Plus Jakarta Sans';
+  }
+  
+
+  .box_movel {
+    background-color: #fff;
+    color: #111;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    min-width: 220px;
+    transition: transform 0.3s ease;
+  }
+  
+  .box_movel:hover {
+    transform: translateY(-5px);
+  }
+  
+  #box > div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+  #skill_icons {
+    box-sizing: border-box;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+  }
+
+  #skill_icons > div {
+    padding-left: 20px;
+
+  }
+  
+  #skill {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 20px; 
+  }
+
+  #skill h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-family: 'Bai Jamjuree';
+  }
+  
+.skills_size {
+    height: 80px;
+    width: 80px;
+}
+
+.file {
+    width: 80px;
+}
+
+#skill_icons > div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .projetos {
+    position: relative;
+  }
+
+
+  #projetos {
+    padding: 60px 20px;
+    text-align: center;
+    margin: 40px;
+  }
+
+  #logo_robo {
+    position: absolute;
+    z-index: 999;
+    height: 100px;
+    width: 100px;
+    right: 0;
+    bottom: 0;
+  }
+  
+  #projetos h2  {
+    font-size: 2rem;
+    margin-bottom: 80px;
+    font-family: 'Bai Jamjuree';
+  }
+
+  #projetos a {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-family: 'Plus Jakarta Sans';
+    color: #c8c8c8;
+    cursor: pointer;
+  }
+  
+#saiba:hover {
+    color: #00c6ff;
+}
+
+  .projetos {
+    background-color: #22313f;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 15px;
+    flex: 1;
+    min-width: 250px;
+    font-family: 'Plus Jakarta Sans';
+    text-align: left;
+    color: #c8c8c8;
+    
+  }
+
+  .projetos:hover {
+    transform: translateY(-5px);
+  }
+  
+  #projetos > div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+
+#footer {
+    background-color: #1b2c36;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+ 
+  #logofoot {
+    display: flex;
+    align-items: end;
+ 
+
+  }
+
+  #contato {
+    display: grid;
+    grid-template-areas:
+      "contato contato"
+      "telefone github"
+      "email linkedin";
+    gap: 20px 20px;
+    align-items: end;
+    padding: 60px;
+  }
+  
+
+  #contat_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: contents;
+  }
+  
+
+  #contat_tit {
+    grid-area: contato;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+
+  .contat_item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ccc;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bold;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .contat_item img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  
+  .contat_item:hover {
+    color: #00c6ff;
+  }
+
+  #telefone { grid-area: telefone; }
+  #email    { grid-area: email; }
+  #github   { grid-area: github; }
+  #linkedin { grid-area: linkedin; }
+
+  .contat_item a {
+    color: inherit;      
+    text-decoration: none;
+    display: flex;       
+    align-items: center; 
+    gap: 8px;            
+}
+
+  
